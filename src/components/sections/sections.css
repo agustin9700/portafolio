@@ -25,6 +25,48 @@
 .icono{
     color: var(--primary-color-dark);
 }
+.section-skills {
+    border-top: solid 1px #2e3034;
+    padding: 10px 0;
+    
+  }
+  
+  
+  .skill-card {
+    background-color: #293686;
+    padding: 20px;
+    min-height: 260px; 
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+  }
+  
+  .skill-card p{
+    color: white;
+  }
+
+  
+  .skill-card .icon {
+  color:#c4daff
+   
+   
+   
+  }
+  
+ 
+  
+  .skill-card h4 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color:#c4daff ;
+
+  }
 
 @media (max-width: 768px) {
   .section-about h2 {
@@ -32,5 +74,9 @@
   }
   .section-about .description {
     font-size: 0.9rem;
+  }
+  .section-skills .skill-card {
+    margin-bottom: 20px;
+    justify-content: center;
   }
 }

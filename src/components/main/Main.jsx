@@ -6,6 +6,7 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import fotoPerfil from "../../../public/foto-perfil2.jpg";
 import About from "../sections/About";
+import Skills from "../sections/Skills";
 
 
 
@@ -55,6 +56,7 @@ function Main() {
         </div>
       </section>
      <About />
+     <Skills  />
     </main>
   );
 }
