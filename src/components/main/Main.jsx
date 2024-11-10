@@ -5,6 +5,8 @@ import {
   faWhatsapp,
 } from "@fortawesome/free-brands-svg-icons";
 import fotoPerfil from "../../../public/foto-perfil2.jpg";
+import About from "../sections/About";
+
 
 
 function Main() {
@@ -18,9 +20,7 @@ function Main() {
             </h2>
             <h1>Desarrollador Web Full Stack</h1>
             <span>
-              Soy un desarrollador web argentino, comprometido en ofrecer sitios
-              adaptables con el diseño que desees.
-            </span>
+            Soy un desarrollador web argentino con experiencia en la creación de sitios web adaptables que se ajustan a tus necesidades y diseños.            </span>
             <div className=" d-flex">
               <a className="contact-button px-4 py-2" href="/">
                 CONTACTAME
@@ -54,6 +54,7 @@ function Main() {
           </div>
         </div>
       </section>
+     <About />
     </main>
   );
 }

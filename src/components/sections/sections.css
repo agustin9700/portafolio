@@ -1,0 +1,36 @@
+.section-about {
+  border-top: solid 1px #2e3034;
+  padding: 10px 0;
+
+
+
+}
+
+.section-about .description {
+  max-width: 800px; /* Ancho máximo para que quede centrado */
+}
+.section-quehago {
+  /* color: var(--primary-color-dark); */
+  color: white;
+  background-color: var(--primary-color-dark);
+  border-radius: 18px;
+  max-width: 400px;
+  margin: 0 auto;
+
+  
+
+
+
+}
+.icono{
+    color: var(--primary-color-dark);
+}
+
+@media (max-width: 768px) {
+  .section-about h2 {
+    font-size: 2rem;
+  }
+  .section-about .description {
+    font-size: 0.9rem;
+  }
+}

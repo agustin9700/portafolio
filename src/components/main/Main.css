@@ -5,7 +5,8 @@
 .main {
   width: 100%;
   min-height: 100vh;
-  background-image: url("../../../public/fondo%20web.webp");
+  /* background-image: url("../../../public/fondo%20web.webp"); */
+  background-color: #101216;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -51,10 +52,7 @@
 
 .contact-button {
   background-color: var(--primary-color-dark);
-  clip-path: polygon(
-    90% 0%, 100% 30%, 100% 70%, 90% 100%,
-    10% 100%, 0% 70%, 0% 30%, 10% 0%
-  );
+  border-radius: 8px;
   color: white;
   text-decoration: none;
   transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;

@@ -3,6 +3,7 @@ import './App.css'
 import NavBar from './components/header/NavBar'
 import Main from './components/main/Main'
 
+
 function App() {
   
 
@@ -10,6 +11,7 @@ function App() {
     <>
       <NavBar />
       <Main />
+      
     </>
   )
 }
