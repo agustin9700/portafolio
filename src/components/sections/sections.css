@@ -43,9 +43,12 @@
     align-items: center;
     justify-content: start;
     margin-bottom: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    
+
+
   }
+  
+  
+
   
   .skill-card p{
     color: white;
